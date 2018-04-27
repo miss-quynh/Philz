@@ -1,18 +1,163 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.philz.MainActivity">
+    android:background="#271714"
+    tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp">
 
-</android.support.constraint.ConstraintLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/philz_bg"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="We Do Coffee Differently"
+            android:textSize="25sp"
+            android:textAllCaps="true"
+            android:gravity="center_horizontal"
+            android:textColor="#b7a576"
+            android:paddingBottom="20dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Address"
+                android:textSize="15sp"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="#c76b19"
+                android:layout_alignParentLeft="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="125 S Frances St. Sunnyvale, CA 94086"
+                android:textSize="13sp"
+                android:textAllCaps="true"
+                android:textColor="#f9f5e7"
+                android:gravity="center_vertical|right"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Phone"
+                android:textSize="15sp"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="#c76b19"
+                android:layout_alignParentLeft="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="(408) 636-2907"
+                android:textSize="13sp"
+                android:textAllCaps="true"
+                android:textColor="#f9f5e7"
+                android:gravity="center_vertical|right"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Store Hours"
+                android:textSize="15sp"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="#c76b19"
+                android:layout_alignParentLeft="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Mon - Fri: 6:00am - 8:00pm"
+                android:textSize="13sp"
+                android:textAllCaps="true"
+                android:textColor="#f9f5e7"
+                android:gravity="center_vertical|right"
+                android:layout_alignParentRight="true"
+                android:id="@+id/weekdayHoursView"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Sat & Sun: 6:00am - 7:00pm"
+                android:textSize="13sp"
+                android:textAllCaps="true"
+                android:textColor="#f9f5e7"
+                android:gravity="center_vertical|right"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/weekdayHoursView"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/facebook" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/instagram" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/linkedin" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/github" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
