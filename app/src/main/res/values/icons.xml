@@ -1,0 +1,8 @@
+<resources>
+    <string name="fa_icon_facebook">&#xf39e;</string>
+    <string name="fa_icon_twitter">&#xf099;</string>
+    <string name="fa_icon_instagram">&#xf16d;</string>
+    <string name="fa_icon_linkedin">&#xf0e1;</string>
+    <string name="fa_icon_pinterest">&#xf231;</string>
+    <string name="fa_icon_googleplus">&#xf0d5;</string>
+</resources>

@@ -24,7 +24,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="We Do Coffee Differently"
+            android:text="@string/business_mantra"
             android:textSize="25sp"
             android:textAllCaps="true"
             android:gravity="center_horizontal"
@@ -39,7 +39,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Address"
+                android:text="@string/address_header"
                 android:textSize="15sp"
                 android:textAllCaps="true"
                 android:textStyle="bold"
@@ -49,7 +49,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="125 S Frances St. Sunnyvale, CA 94086"
+                android:text="@string/address"
                 android:textSize="13sp"
                 android:textAllCaps="true"
                 android:textColor="#f9f5e7"
@@ -66,7 +66,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Phone"
+                android:text="@string/phone_header"
                 android:textSize="15sp"
                 android:textAllCaps="true"
                 android:textStyle="bold"
@@ -76,7 +76,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="(408) 636-2907"
+                android:text="@string/phone"
                 android:textSize="13sp"
                 android:textAllCaps="true"
                 android:textColor="#f9f5e7"
@@ -93,7 +93,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Store Hours"
+                android:text="@string/store_hours_header"
                 android:textSize="15sp"
                 android:textAllCaps="true"
                 android:textStyle="bold"
@@ -103,7 +103,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Mon - Fri: 6:00am - 8:00pm"
+                android:text="@string/weekday_hours"
                 android:textSize="13sp"
                 android:textAllCaps="true"
                 android:textColor="#f9f5e7"
@@ -114,11 +114,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Sat & Sun: 6:00am - 7:00pm"
+                android:text="@string/weekend_hours"
                 android:textSize="13sp"
                 android:textAllCaps="true"
                 android:textColor="#f9f5e7"
-                android:gravity="center_vertical|right"
+                android:gravity="center_vertical|end"
                 android:layout_alignParentRight="true"
                 android:layout_below="@+id/weekdayHoursView"/>
 
@@ -128,35 +128,63 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="30dp">
+            android:layout_marginTop="20dp">
 
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="50dp"
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
                 android:layout_weight="1"
-                android:src="@drawable/facebook" />
+                android:textSize="45sp"
+                android:textColor="#f9f5e7"
+                android:text="@string/fa_icon_facebook" />
 
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="50dp"
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
                 android:layout_weight="1"
-                android:src="@drawable/instagram" />
+                android:textSize="45sp"
+                android:textColor="#f9f5e7"
+                android:text="@string/fa_icon_twitter" />
 
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="50dp"
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
                 android:layout_weight="1"
-                android:src="@drawable/linkedin" />
+                android:textSize="45sp"
+                android:textColor="#f9f5e7"
+                android:text="@string/fa_icon_instagram" />
 
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="50dp"
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
                 android:layout_weight="1"
-                android:src="@drawable/github" />
+                android:textSize="45sp"
+                android:textColor="#f9f5e7"
+                android:text="@string/fa_icon_linkedin" />
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="45sp"
+                android:textColor="#f9f5e7"
+                android:text="@string/fa_icon_pinterest" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="45sp"
+                android:textColor="#f9f5e7"
+                android:text="@string/fa_icon_googleplus" />
 
         </LinearLayout>
-
 
     </LinearLayout>
 

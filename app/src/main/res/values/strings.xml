@@ -1,3 +1,30 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Title for the application. [CHAR LIMIT=12] -->
     <string name="app_name">Philz</string>
+
+    <!-- Business mantra. [CHAR LIMIT=NONE] -->
+    <string name="business_mantra">We Do Coffee Differently</string>
+
+    <!-- Address header. [CHAR LIMIT=20] -->
+    <string name="address_header">Address</string>
+
+    <!-- Business address text. [CHAR LIMIT=NONE] -->
+    <string name="address">125 S Frances St. Sunnyvale, CA 94086</string>
+
+    <!-- Phone header. [CHAR LIMIT=20] -->
+    <string name="phone_header">Phone</string>
+
+    <!-- Business phone number. [CHAR LIMIT=NONE] -->
+    <string name="phone">(408) 636-2907</string>
+
+    <!-- Store hours header. [CHAR LIMIT=20] -->
+    <string name="store_hours_header">Store Hours</string>
+
+    <!-- Business weekday store hours. [CHAR LIMIT=NONE] -->
+    <string name="weekday_hours">Mon - Fri: 6:00am - 8:00pm</string>
+
+    <!-- Business weekend store hours. [CHAR LIMIT=NONE] -->
+    <string name="weekend_hours">Sat & Sun: 6:00am - 7:00pm</string>
+
 </resources>
