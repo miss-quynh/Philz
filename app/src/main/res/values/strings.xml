@@ -25,6 +25,6 @@
     <string name="weekday_hours">Mon - Fri: 6:00am - 8:00pm</string>
 
     <!-- Business weekend store hours. [CHAR LIMIT=NONE] -->
-    <string name="weekend_hours">Sat & Sun: 6:00am - 7:00pm</string>
+    <string name="weekend_hours">Sat &amp; Sun: 6:00am - 7:00pm</string>
 
 </resources>

@@ -7,7 +7,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         android:paddingBottom="16dp"
         android:paddingLeft="16dp"
@@ -44,7 +44,8 @@
                 android:textAllCaps="true"
                 android:textStyle="bold"
                 android:textColor="#c76b19"
-                android:layout_alignParentLeft="true"/>
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -53,8 +54,9 @@
                 android:textSize="13sp"
                 android:textAllCaps="true"
                 android:textColor="#f9f5e7"
-                android:gravity="center_vertical|right"
-                android:layout_alignParentRight="true"/>
+                android:gravity="center_vertical|end"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"/>
 
         </RelativeLayout>
 
@@ -71,7 +73,8 @@
                 android:textAllCaps="true"
                 android:textStyle="bold"
                 android:textColor="#c76b19"
-                android:layout_alignParentLeft="true"/>
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -80,8 +83,9 @@
                 android:textSize="13sp"
                 android:textAllCaps="true"
                 android:textColor="#f9f5e7"
-                android:gravity="center_vertical|right"
-                android:layout_alignParentRight="true"/>
+                android:gravity="center_vertical|end"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"/>
 
         </RelativeLayout>
 
@@ -98,7 +102,8 @@
                 android:textAllCaps="true"
                 android:textStyle="bold"
                 android:textColor="#c76b19"
-                android:layout_alignParentLeft="true"/>
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -107,8 +112,9 @@
                 android:textSize="13sp"
                 android:textAllCaps="true"
                 android:textColor="#f9f5e7"
-                android:gravity="center_vertical|right"
+                android:gravity="center_vertical|end"
                 android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:id="@+id/weekdayHoursView"/>
 
             <TextView
@@ -120,6 +126,7 @@
                 android:textColor="#f9f5e7"
                 android:gravity="center_vertical|end"
                 android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:layout_below="@+id/weekdayHoursView"/>
 
         </RelativeLayout>
