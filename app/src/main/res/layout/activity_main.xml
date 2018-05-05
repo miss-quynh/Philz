@@ -19,7 +19,8 @@
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:src="@drawable/philz_bg"
-            android:paddingBottom="10dp"/>
+            android:paddingBottom="10dp"
+            android:layout_weight="2"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -29,12 +30,13 @@
             android:textAllCaps="true"
             android:gravity="center_horizontal"
             android:textColor="#b7a576"
-            android:paddingBottom="20dp"/>
+            android:paddingBottom="20dp"
+            android:layout_weight="1"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="5dp">
+            android:padding="10dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -50,20 +52,33 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="@string/address"
+                android:text="@string/address1"
                 android:textSize="13sp"
                 android:textAllCaps="true"
                 android:textColor="#f9f5e7"
                 android:gravity="center_vertical|end"
                 android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true"/>
+                android:layout_alignParentEnd="true"
+                android:id="@+id/addressOneView"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/address2"
+                android:textSize="13sp"
+                android:textAllCaps="true"
+                android:textColor="#f9f5e7"
+                android:gravity="center_vertical|end"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/addressOneView"/>
 
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="5dp">
+            android:padding="10dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -92,7 +107,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="5dp">
+            android:padding="10dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -134,68 +149,88 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="20dp">
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="bottom">
 
             <TextView
-                android:id="@+id/facebook_icon"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_weight="1"
-                android:textSize="45sp"
-                android:textColor="#f9f5e7"
-                android:text="@string/fa_icon_facebook" />
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/follow_us_header"
+                android:textSize="20sp"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textColor="#c76b19"
+                android:layout_gravity="right"
+                android:layout_weight="1"/>
 
-            <TextView
-                android:id="@+id/twitter_icon"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_weight="1"
-                android:textSize="45sp"
-                android:textColor="#f9f5e7"
-                android:text="@string/fa_icon_twitter" />
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
 
-            <TextView
-                android:id="@+id/instagram_icon"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_weight="1"
-                android:textSize="45sp"
-                android:textColor="#f9f5e7"
-                android:text="@string/fa_icon_instagram" />
+                <TextView
+                    android:id="@+id/facebook_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="35sp"
+                    android:textColor="#54845a"
+                    android:text="@string/fa_icon_facebook" />
 
-            <TextView
-                android:id="@+id/linkedin_icon"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_weight="1"
-                android:textSize="45sp"
-                android:textColor="#f9f5e7"
-                android:text="@string/fa_icon_linkedin" />
+                <TextView
+                    android:id="@+id/twitter_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="35sp"
+                    android:textColor="#54845a"
+                    android:text="@string/fa_icon_twitter" />
 
-            <TextView
-                android:id="@+id/pinterest_icon"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_weight="1"
-                android:textSize="45sp"
-                android:textColor="#f9f5e7"
-                android:text="@string/fa_icon_pinterest" />
+                <TextView
+                    android:id="@+id/instagram_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="35sp"
+                    android:textColor="#54845a"
+                    android:text="@string/fa_icon_instagram" />
 
-            <TextView
-                android:id="@+id/googleplus_icon"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_weight="1"
-                android:textSize="45sp"
-                android:textColor="#f9f5e7"
-                android:text="@string/fa_icon_googleplus" />
+                <TextView
+                    android:id="@+id/linkedin_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="35sp"
+                    android:textColor="#54845a"
+                    android:text="@string/fa_icon_linkedin" />
+
+                <TextView
+                    android:id="@+id/pinterest_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="35sp"
+                    android:textColor="#54845a"
+                    android:text="@string/fa_icon_pinterest" />
+
+                <TextView
+                    android:id="@+id/googleplus_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="35sp"
+                    android:textColor="#54845a"
+                    android:text="@string/fa_icon_googleplus" />
+
+            </LinearLayout>
 
         </LinearLayout>
 

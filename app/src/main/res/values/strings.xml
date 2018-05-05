@@ -10,7 +10,10 @@
     <string name="address_header">Address</string>
 
     <!-- Business address text. [CHAR LIMIT=NONE] -->
-    <string name="address">125 S Frances St. Sunnyvale, CA 94086</string>
+    <string name="address1">125 S Frances Street</string>
+
+    <!-- Business address text. [CHAR LIMIT=NONE] -->
+    <string name="address2">Sunnyvale, CA 94086</string>
 
     <!-- Phone header. [CHAR LIMIT=20] -->
     <string name="phone_header">Phone</string>
@@ -26,5 +29,8 @@
 
     <!-- Business weekend store hours. [CHAR LIMIT=NONE] -->
     <string name="weekend_hours">Sat &amp; Sun: 6:00am - 7:00pm</string>
+
+    <!-- Social media header. [CHAR LIMIT=20] -->
+    <string name="follow_us_header">Join Us</string>
 
 </resources>
