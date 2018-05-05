@@ -178,6 +178,7 @@
                     android:layout_weight="1"
                     android:textSize="35sp"
                     android:textColor="#54845a"
+                    android:textColorLink="#54845a"
                     android:text="@string/fa_icon_facebook" />
 
                 <TextView
@@ -188,6 +189,7 @@
                     android:layout_weight="1"
                     android:textSize="35sp"
                     android:textColor="#54845a"
+                    android:textColorLink="#54845a"
                     android:text="@string/fa_icon_twitter" />
 
                 <TextView
@@ -198,6 +200,7 @@
                     android:layout_weight="1"
                     android:textSize="35sp"
                     android:textColor="#54845a"
+                    android:textColorLink="#54845a"
                     android:text="@string/fa_icon_instagram" />
 
                 <TextView
@@ -208,6 +211,7 @@
                     android:layout_weight="1"
                     android:textSize="35sp"
                     android:textColor="#54845a"
+                    android:textColorLink="#54845a"
                     android:text="@string/fa_icon_linkedin" />
 
                 <TextView
@@ -218,6 +222,7 @@
                     android:layout_weight="1"
                     android:textSize="35sp"
                     android:textColor="#54845a"
+                    android:textColorLink="#54845a"
                     android:text="@string/fa_icon_pinterest" />
 
                 <TextView
@@ -228,6 +233,7 @@
                     android:layout_weight="1"
                     android:textSize="35sp"
                     android:textColor="#54845a"
+                    android:textColorLink="#54845a"
                     android:text="@string/fa_icon_googleplus" />
 
             </LinearLayout>

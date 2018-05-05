@@ -3,6 +3,7 @@ package com.example.android.philz;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -34,6 +35,13 @@ public class MainActivity extends AppCompatActivity {
         linkedinIcon.setTypeface(iconFont);
         pinterestIcon.setTypeface(iconFont);
         googleplusIcon.setTypeface(iconFont);
+
+        facebookIcon.setMovementMethod(LinkMovementMethod.getInstance());
+        twitterIcon.setMovementMethod(LinkMovementMethod.getInstance());
+        instagramIcon.setMovementMethod(LinkMovementMethod.getInstance());
+        linkedinIcon.setMovementMethod(LinkMovementMethod.getInstance());
+        pinterestIcon.setMovementMethod(LinkMovementMethod.getInstance());
+        googleplusIcon.setMovementMethod(LinkMovementMethod.getInstance());
 
     }
 }
