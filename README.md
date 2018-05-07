@@ -12,9 +12,9 @@ To maintain a consistent theme, I utilized only Philz colors for the app (please
 <ul>#B7A576</ul>
 <ul>#F9F5E6</ul>
 
-![Screenshot](public/color_palette.png)
+![Screenshot](screenshots/color_palette.png)
 
-![Screenshot](public/app_view.png)
+![Screenshot](screenshots/app_view.png)
 
 <hr>
 
