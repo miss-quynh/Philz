@@ -19,8 +19,7 @@
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:src="@drawable/philz_bg"
-            android:paddingBottom="10dp"
-            android:layout_weight="2"/>
+            android:paddingBottom="10dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -30,13 +29,41 @@
             android:textAllCaps="true"
             android:gravity="center_horizontal"
             android:textColor="#b7a576"
-            android:paddingBottom="20dp"
-            android:layout_weight="1"/>
+            android:paddingBottom="5dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/business_philosophy"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_width="308dp"
+                android:layout_height="match_parent"
+                android:paddingBottom="20dp"
+                android:text="@string/business_philosophy"
+                android:textAllCaps="true"
+                android:textColor="#f9f5e7"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="3dp"
+                android:layout_height="62dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="22dp"
+                android:layout_marginLeft="22dp"
+                android:background="#f9f5e7"
+                android:paddingLeft="20dp" />
+
+        </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="10dp">
+            android:padding="5dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -78,7 +105,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="10dp">
+            android:padding="5dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -107,7 +134,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="10dp">
+            android:padding="5dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -161,8 +188,7 @@
                 android:textAllCaps="true"
                 android:textStyle="bold"
                 android:textColor="#c76b19"
-                android:layout_gravity="right"
-                android:layout_weight="1"/>
+                android:layout_gravity="right"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -176,7 +202,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:layout_weight="1"
-                    android:textSize="35sp"
+                    android:textSize="25sp"
                     android:textColor="#54845a"
                     android:textColorLink="#54845a"
                     android:text="@string/fa_icon_facebook" />
@@ -187,7 +213,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:layout_weight="1"
-                    android:textSize="35sp"
+                    android:textSize="25sp"
                     android:textColor="#54845a"
                     android:textColorLink="#54845a"
                     android:text="@string/fa_icon_twitter" />
@@ -198,7 +224,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:layout_weight="1"
-                    android:textSize="35sp"
+                    android:textSize="25sp"
                     android:textColor="#54845a"
                     android:textColorLink="#54845a"
                     android:text="@string/fa_icon_instagram" />
@@ -209,7 +235,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:layout_weight="1"
-                    android:textSize="35sp"
+                    android:textSize="25sp"
                     android:textColor="#54845a"
                     android:textColorLink="#54845a"
                     android:text="@string/fa_icon_linkedin" />
@@ -220,7 +246,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:layout_weight="1"
-                    android:textSize="35sp"
+                    android:textSize="25sp"
                     android:textColor="#54845a"
                     android:textColorLink="#54845a"
                     android:text="@string/fa_icon_pinterest" />
@@ -231,7 +257,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:layout_weight="1"
-                    android:textSize="35sp"
+                    android:textSize="25sp"
                     android:textColor="#54845a"
                     android:textColorLink="#54845a"
                     android:text="@string/fa_icon_googleplus" />

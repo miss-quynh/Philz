@@ -6,6 +6,9 @@
     <!-- Business mantra. [CHAR LIMIT=NONE] -->
     <string name="business_mantra">We Do Coffee Differently</string>
 
+    <!-- Business philosphy. [CHAR LIMIT=NONE] -->
+    <string name="business_philosophy">We brew every cup \"One Cup at a Time,\" crafting a perfect cup to every individual customer\'s taste. You won\'t find any lattes, cappuccinos, espressos, or pre-brews. Instead, you\'ll find over 20 customized blends made from high quality beans from around the world. </string>
+
     <!-- Address header. [CHAR LIMIT=20] -->
     <string name="address_header">Address</string>
 
@@ -19,7 +22,7 @@
     <string name="phone_header">Phone</string>
 
     <!-- Business phone number. [CHAR LIMIT=NONE] -->
-    <string name="phone">(408) 636-2907</string>
+    <string name="phone">(408) 636&#8211;2907</string>
 
     <!-- Store hours header. [CHAR LIMIT=20] -->
     <string name="store_hours_header">Store Hours</string>
